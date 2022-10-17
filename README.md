@@ -1,9 +1,10 @@
 # SproutAngio
-A tool for quantitative analysis of sprouting angiogenesis and lumen space
+A tool for quantitative analysis of sprouting angiogenesis and lumen space.
 If you use our scripts in a work contributing to a scientific publication, we ask that you cite our related publication:
 ### SproutAngio: An Open-Source Bioimage Informatics Tool for Quantitative Analysis of Sprouting Angiogenesis and Lumen Space
-!<img src="https://user-images.githubusercontent.com/65368053/159856802-00f8b357-3b63-4545-a16e-eadf49d53ab8.gif" width="200" height="200">
-!<img src="https://user-images.githubusercontent.com/65368053/159856808-172a5a02-a893-42fa-9c66-73cbc7dceccf.gif" width="200" height="200">
+
+<img src="https://user-images.githubusercontent.com/65368053/159856802-00f8b357-3b63-4545-a16e-eadf49d53ab8.gif" width="200" height="200">
+<img src="https://user-images.githubusercontent.com/65368053/159856808-172a5a02-a893-42fa-9c66-73cbc7dceccf.gif" width="200" height="200">
 
 The main scripts, which are linked to the in vitro fibrin bead assay analysis are: Py_Angio_01 and Py_Angio_02. 
 Other than these, there are several independent scripts which are linked to the article including Py_branch_analysis that we used for in vivo retina analysis. 
