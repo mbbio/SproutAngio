@@ -1,7 +1,16 @@
 # SproutAngio
 A tool for quantitative analysis of sprouting angiogenesis and endothelial lumen space.
 If you use our scripts in a work contributing to a scientific publication, we ask that you cite our related publication:
-### SproutAngio: An Open-Source Bioimage Informatics Tool for Quantitative Analysis of Sprouting Angiogenesis and Lumen Space
+##### "SproutAngio: An Open-Source Bioimage Informatics Tool for Quantitative Analysis of Sprouting Angiogenesis and Lumen Space"
+
+## Features
+-> 3D segmentation of fibrin bead assay confocal microscopy images
+-> Automated analysis of endothelial lumen space:
+  - Width measurement from different segments of the sprouts
+  - Paired nuclei distance analysis
+-> Branch analysis for retina images
+
+## Details
 
 The main tool for the in vitro fibrin bead assay analysis is: SproutAngio_main.
 
