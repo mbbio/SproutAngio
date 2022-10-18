@@ -1,7 +1,7 @@
 # SproutAngio
 A tool for quantitative analysis of sprouting angiogenesis and endothelial lumen space.
 
-## Publications and citation
+## Citation
 If you use our scripts in a work contributing to a scientific publication, we ask that you cite our related publication:
 ##### "SproutAngio: An Open-Source Bioimage Informatics Tool for Quantitative Analysis of Sprouting Angiogenesis and Lumen Space"
 
