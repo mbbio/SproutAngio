@@ -30,20 +30,22 @@ For volumetric measurement of the sprouts, you can view the 3D image using the n
 For in vivo retina analysis you can use Retina_analysis tool. Before the section "creating a filled polygon to draw a central bead" in the retina analysis, do the following in the opened napari window to cover the retina area:
 ![SproutAngio github retina image](https://user-images.githubusercontent.com/65368053/196512628-3a50c525-9d02-4e7e-800e-6da2202ee8c0.png)
 
-### Prerequisites for running the scripts: 
+### Prerequisites for running the code: 
 
-To install the necessary dependencies, run:
+To install the necessary dependencies for fibrin bead assay analysis, statistical analysis and drawing graphs, run:
 ```
-pip install napari
-pip install astropy
+pip install "napari[all]"
 pip install czifile
-pip install fil-finder
-pip install matplotlib
-pip install scikit-image
-pip install scipy
+pip install openpyxl
 pip install seaborn
+pip install fil-finder
+```
+
+To install the necessary dependencies for retina analysis:
+```
 pip install skan
 ```
+
 ### Funding
 
 This work was supported by Horizon 2020 Framework Programme (Marie Sklodowska Curie grant agreement 740264), Academy of Finland (JPL, 321535 and 328835) and GeneCellNano Flagship Program 337431.
