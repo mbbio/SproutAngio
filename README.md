@@ -48,7 +48,7 @@ pip install skan
 
 ### Funding
 
-This work was supported by Horizon 2020 Framework Programme (Marie Sklodowska Curie grant agreement 740264), Academy of Finland (JPL, 321535 and 328835) and GeneCellNano Flagship Program 337431.
+This work was supported by Horizon 2020 Framework Programme (Marie Sklodowska Curie grant agreement 740264), Academy of Finland (321535, 328835, 353376), GeneCellNano Flagship Program 337431, wedish Research Council (Contract No. 2013-9279 and 2021-01919), European Research Council (project EC-ERC-VEPC, Contract No. 74292).
 
 ### Bugs
 If you experience an error in the code while working, please report it under Issues/New issue
