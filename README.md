@@ -13,8 +13,13 @@ If you use our scripts in a work contributing to a scientific publication, we as
   - Paired nuclei distance analysis
 - Branch analysis for retina images
 
-## Step-by-step guide to install and use the tool for beginners:
+### Funding
+This work was supported by Horizon 2020 Framework Programme (Marie Sklodowska Curie grant agreement 740264), Academy of Finland (321535, 328835, 353376), GeneCellNano Flagship Program 337431, wedish Research Council (Contract No. 2013-9279 and 2021-01919), European Research Council (project EC-ERC-VEPC, Contract No. 74292).
 
+### Bugs
+If you experience an error in the code while working, please report it under Issues/New issue
+
+## Step-by-step guide to install and use the tool for beginners:
 A. INSTALLING
 1. If you are new to Python, one of the best ways to install and use SproutAngio tool is by installing Anaconda Navigator. It simplifies the package management and installation process. Install Anaconda using their updated installation guide here: https://docs.anaconda.com/anaconda/install/ 
 Note! After the installation of Anaconda update it to the current version if needed. 
@@ -245,10 +250,3 @@ If we had used this excel for defining the path in step 2, then, running the sec
 ![image](https://github.com/mbbio/SproutAngio/assets/65368053/4a7594dc-239d-4c74-a214-9a1f5c78bfb1)
 You can use other statistical tests: https://docs.scipy.org/doc/scipy/reference/stats.html
 
-
-### Funding
-
-This work was supported by Horizon 2020 Framework Programme (Marie Sklodowska Curie grant agreement 740264), Academy of Finland (321535, 328835, 353376), GeneCellNano Flagship Program 337431, wedish Research Council (Contract No. 2013-9279 and 2021-01919), European Research Council (project EC-ERC-VEPC, Contract No. 74292).
-
-### Bugs
-If you experience an error in the code while working, please report it under Issues/New issue
