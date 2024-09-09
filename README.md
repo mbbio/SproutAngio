@@ -78,6 +78,10 @@ pip install XlsxWriter
 
 Then press enter
 
+pip install PyQt5
+
+Then press enter
+
 15. After all the packages are installed, you can close the terminal:
 ![image](https://github.com/mbbio/SproutAngio/assets/65368053/c80a8e26-432f-4020-a189-17926446e250)
 ![image](https://github.com/mbbio/SproutAngio/assets/65368053/3a8fda1b-125f-4542-8791-481d3586ae29)
