@@ -26,67 +26,40 @@ Note! After the installation of Anaconda update it to the current version if nee
 2. Before installing SproutAngio and the necessary libraries, you need to create a new working environment using Anaconda. It always opens the base (root) environment as a default (marked by yellow rectangular in the figure below). 
 ![image](https://github.com/mbbio/SproutAngio/assets/65368053/5ed275a4-98f8-4f15-8b93-30eae68a1439)
 3. Click “Environments” and then “Create” (marked in yellow in the figure below) to create a new working environment for SproutAngio.
+   Napari team recommends python=3.11 currently.
 ![image](https://github.com/mbbio/SproutAngio/assets/65368053/1e344d76-8c0d-45e3-9617-b385af3c4f93)
-4. After creating the working environment, you can now go back to the home tab of Anaconda Navigator. Then, you can install one of the interactive environment plugins, in this case we prefer using JupyterLab (marked with yellow rectangular to figure below) simply because we feel it is easier to use.
+5. After creating the working environment, you can now go back to the home tab of Anaconda Navigator. Then, you can install one of the interactive environment plugins, in this case we prefer using JupyterLab (marked with yellow rectangular to figure below) simply because we feel it is easier to use.
 ![image](https://github.com/mbbio/SproutAngio/assets/65368053/4ffb2038-fc96-4f8c-b6d0-da8178882285)
-5. Once JupyterLab is installed, you can launch it (marked in figure with yellow).
+6. Once JupyterLab is installed, you can launch it (marked in figure with yellow).
 ![image](https://github.com/mbbio/SproutAngio/assets/65368053/30075275-d112-48ed-bf87-b50ab9e0777c)
-6. JupyterLab will simply open using your internet browser. Notice that Jupyterlab has multiple tabs in both left and right sides. Left tabs are file browser, terminals and kernels, table of contents, extension manager. On the right tab, you can create new launcher tabs by clicking the + icon. 
+7. JupyterLab will simply open using your internet browser. Notice that Jupyterlab has multiple tabs in both left and right sides. Left tabs are file browser, terminals and kernels, table of contents, extension manager. On the right tab, you can create new launcher tabs by clicking the + icon. 
 ![image](https://github.com/mbbio/SproutAngio/assets/65368053/85083bb6-d554-41e4-99b7-6c2992e791a9)
-7. Now select a file path for your working environment. As an example, here we double-click the Desktop in the browser (marked in yellow in the figure below). If you do not see your desktop, you can alternatively choose some other file path you know such as Documents or Downloads.
+8. Now select a file path for your working environment. As an example, here we double-click the Desktop in the browser (marked in yellow in the figure below). If you do not see your desktop, you can alternatively choose some other file path you know such as Documents or Downloads.
 ![image](https://github.com/mbbio/SproutAngio/assets/65368053/87e138a7-db5b-42e7-b4a1-20377e724c9c)
-8. Then, click the new folder icon to make a new folder on your desktop (see arrow in the figure below). We name it here as SproutAngio.
+9. Then, click the new folder icon to make a new folder on your desktop (see arrow in the figure below). We name it here as SproutAngio.
 ![image](https://github.com/mbbio/SproutAngio/assets/65368053/a0d167fa-04fc-487f-b0e6-1739f2d5e2c0)
 ![image](https://github.com/mbbio/SproutAngio/assets/65368053/03e36161-bb8a-4468-b9e7-6897b57bb2f9)
-9. You can double click and get inside the newly created SproutAngio folder, which is empty right now. 
+10. You can double click and get inside the newly created SproutAngio folder, which is empty right now. 
 ![image](https://github.com/mbbio/SproutAngio/assets/65368053/a2b7fcdd-2f2e-4600-873f-add8a3a08023)
-10. Now, you will install the necessary dependencies to use the SproutAngio tool. By clicking on the Terminal, we will open a terminal (marked in yellow in the figure below).
+11. Now, you will install the necessary dependencies to use the SproutAngio tool. By clicking on the Terminal, we will open a terminal (marked in yellow in the figure below).
 ![image](https://github.com/mbbio/SproutAngio/assets/65368053/c4760509-ad1f-4ccf-86bb-60ce9bab00d1)
 ![image](https://github.com/mbbio/SproutAngio/assets/65368053/32ae3707-16b4-4a68-9def-f92337aaaa10)
-11. Next part is the installation of the prerequisites to use SproutAngio. Before reading the next parts, just a reminder that installations might take couple of minutes especially for the first library (Napari) and when you run, it might seem that it is doing nothing in the beginning, but actually it is. So, be patient. 
+12. Next part is the installation of the prerequisites to use SproutAngio. Before reading the next parts, just a reminder that installations might take couple of minutes especially for the first library (Napari) and when you run, it might seem that it is doing nothing in the beginning, but actually it is. So, be patient. 
 Before you continue, to briefly explain the function of each library:
 Napari is a multi-dimensional image viewer for Python environment. Czifile is a library to read confocal microscopy Carl Zeiss Image (CZI) files. Seaborn is a data visualization library. Fil-finder is a package to analyze filamentary structures in fibrin bead assay. Skan is a library to analyze skeleton structures in retina images. Openpyxl and XlsxWriter are libraries to handle and transfer data in excel files.
-12. Now, copy (ctrl – C) paste (ctrl - V) the installation commends, one by one, for the prerequisites and press “enter” key on your keyboard. You can check when the installation of each package finishes, by seeing the same starting path for your new commend:
+13. Now, copy (ctrl – C) paste (ctrl - V) the installation commends, one by one, for the prerequisites and press “enter” key on your keyboard. You can check when the installation of each package finishes, by seeing the same starting path for your new commend:
 pip install "napari[all]"
 
-13. Then press enter on your keyboard. Note that installation might take couple of minutes depending on the internet speed and processing time.
+14. Then press enter on your keyboard. Note that installation might take couple of minutes depending on the internet speed and processing time.
 ![image](https://github.com/mbbio/SproutAngio/assets/65368053/97abe50d-1a5c-42a4-94f8-2ca222ec9966)
 ![image](https://github.com/mbbio/SproutAngio/assets/65368053/c8f92ef7-1b82-4827-804b-667cf54f9205)
-14. Once you see the Users\your username... line, it means the installation is finished for that library. You can do the same copy-paste with these next libraries:
+15. Once you see the Users\your username... line, it means the installation is finished for that library. You can do the same copy-paste with the next line, to install the other libraries:
 
-pip install czifile
-
-Then press enter
-
-pip install seaborn
+pip install czifile seaborn fil-finder skan==0.10.0 openpyxl XlsxWriter opencv-python
 
 Then press enter
 
-pip install fil-finder
-
-Then press enter
-
-pip install skan==0.10.0
-
-Then press enter
-
-pip install openpyxl
-
-Then press enter
-
-pip install XlsxWriter
-
-Then press enter
-
-pip install PyQt5
-
-Then press enter
-
-pip install opencv-python
-
-Then press enter
-
-15. After all the packages are installed, you can close the terminal:
+15. After the packages are installed, you can close the terminal:
 ![image](https://github.com/mbbio/SproutAngio/assets/65368053/c80a8e26-432f-4020-a189-17926446e250)
 ![image](https://github.com/mbbio/SproutAngio/assets/65368053/3a8fda1b-125f-4542-8791-481d3586ae29)
 16. Now you can download SproutAngio files from GitHub, i.e., a website and cloud-based service used for storage and management of codes. If you do not have experience with using GitHub, we recommend using GitHub desktop application. To install it: https://desktop.github.com/ 
