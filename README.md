@@ -85,7 +85,13 @@ Note! When you open the test_data folder for the copy-paste, you can see that th
 
 20. Turn off the GitHub application and be sure to copy paste all 6 files below from GitHub downloaded files and test samples into the “SproutAngio” folder which you created with Jupyterlab. After all these files are in your Jupyterlab created folder, when you open the Jupyterlab tab in your internet browser, you can see the files in your folder there.
 ![image](https://github.com/mbbio/SproutAngio/assets/65368053/d253d24d-d52f-4813-8c4f-ebd42449c374)
-21. Well done! Now, everything is ready to start using the SproutAngio tool.
+
+21. After you downloaded all, open the terminal again and run the following code, in case numpy is conflicting with skan:
+
+pip install -r requirements.txt
+<img width="1277" height="447" alt="image" src="https://github.com/user-attachments/assets/551fe42e-938b-4720-ab3c-470f37de479a" />
+
+22. Well done! Now, everything is ready to start using the SproutAngio tool.
 
 
 B. USING THE TOOL:         
