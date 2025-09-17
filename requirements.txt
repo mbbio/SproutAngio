@@ -1,0 +1,8 @@
+numpy<2
+skan==0.10.0
+czifile
+seaborn
+fil-finder
+openpyxl
+XlsxWriter
+opencv-python
